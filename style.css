@@ -1,3 +1,36 @@
+:root {
+  /*background: linear-gradient( rgb(27, 30, 37));*/
+  background: rgb(51, 73, 119);
+  background: linear-gradient(
+    153deg,
+    rgba(51, 73, 119, 1) 1%,
+    rgba(49, 66, 107, 1) 13%,
+    rgba(27, 30, 37, 1) 100%
+  );
+  color: white;
+}
+
+#tribute-link:hover{
+    color: aliceblue;
+}
+
+#tribute-link:visited{
+    color: rgb(255,224,46);
+}
+
+#tribute-link:link{
+    color: rgb(157, 156, 201);
+}
+
+/*@media only screen and (max-width: 925){
+    figcaption{
+
+    }
+}*/
+
+#main {
+  text-align: center;
+}
 #image {
   border-radius: 10px;
   max-width: 100%;
@@ -5,12 +38,17 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 
 #img-div {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+#img-caption{
+    font-size: 1.5vw;
 }
 
 #tribute-info {
@@ -22,4 +60,14 @@
 
 #list-info {
   margin: 1px;
+}
+
+blockquote{
+    font-size: 25px;
+    text-align: justify;
+    font-style: italic;
+}
+
+#quote-space{
+    text-align: end;
 }
