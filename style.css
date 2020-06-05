@@ -10,16 +10,16 @@
   color: white;
 }
 
-#tribute-link:hover{
-    color: aliceblue;
+#tribute-link:link{
+    color: rgb(100%, 255,224,46);
 }
 
 #tribute-link:visited{
-    color: rgb(255,224,46);
+  color: rgb(100%, 255,224,46);
 }
 
-#tribute-link:link{
-    color: rgb(157, 156, 201);
+#tribute-link:hover{
+  color: aliceblue;
 }
 
 /*@media only screen and (max-width: 925){
